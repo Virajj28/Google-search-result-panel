@@ -9,20 +9,20 @@
 </head>
 <body>
     <div class="mainContainer">
-        <button onclick="myFunction()">Open right sidebar</button>
+        <button id="open" onclick="showPanel()">Open Right sidebar</button>
+        <button id="close" onclick="hidePanel()">Close Right sidebar</button>
         <!-- <div class="icons">
             <img src="arrow-right.svg" alt="icon">
         </div> -->
-        <div class="container">
-        
+        <div id="panel" style="visibility: hidden;">
+            <div class="container">
             <!-- <img src="close.png" alt="icon" width="40px" height="40px"> -->
-            <img src ="dogecoin.jpg" alt="logo" width="auto" height="350">
+            <img src ="dogecoin.jpg" alt="logo" width="auto" height="350" id="img">
             <div class="host">
                 <img src="hostlogo.jpeg" alt="host">
                 <a href="https://www.coindesk.com/price/dogecoin">CoinDesk</a>
                 <button class="button">Visit</button>
                 <div class="description">
-                    
                 <a href="https://www.coindesk.com/price/dogecoin">Dogecoin Price | DOGE Price Index and Live Chart - CoinDesk</a>
             </div>
             </div>
@@ -36,6 +36,7 @@
                     See More</a>
 
             </div>
+        
             <div class="display">
                 <a>
                     <img src="img1.jpeg"> <img src="img2.jpeg">
@@ -75,7 +76,8 @@
                 </div> -->
                     
                 
-            
+        
+        </div>
                
                 <!-- <div>
                  <img src="img3.jpeg" alt="img3">

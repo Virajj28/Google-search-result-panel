@@ -1,8 +1,16 @@
-function myFunction() {
-    var x = document.getElementById("container");
-    if ( === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+// function showPanel() {
+//     var x = document.getElementById('container');
+//     if ( x=== "none") {
+//       x.style.style="visibility: visible";
+//     } else {
+//       x.style.style="visibility: hidden";
+//     }
+//   }
+
+function showPanel() {
+  document.getElementById('panel').style.visibility = "visible";
+  };
+
+function hidePanel() {
+  document.getElementById('panel').style.visibility = "hidden";
   }
